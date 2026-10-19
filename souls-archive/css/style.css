@@ -1,0 +1,134 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2024/01/every-soulsborne-game-ranked-by-lore.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+}
+
+nav a::after {
+    display: flex;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+nav a:hover:after {
+    width: 100%;
+}
+
+#ds, #sekiro, #bb {
+    margin-top: 30px;
+    font-family: "Fira Sans", sans-serif;
+    color: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 30px;
+    margin-bottom: 0;
+
+    color: white;
+}
+
+h1 {
+    font-family: "Jersey 25", sans-serif;
+    font-size: 72px;
+    
+}
+h2 {
+    font-family: "Jersey 25", sans-serif;
+    font-size: 48px;
+
+    margin-top: 0;
+}
+
+p {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 24px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+#steam {
+    color: white;
+    text-decoration: none;
+    font-family: "Fira Sans", sans-serif;
+
+    border: 2px solid #0B1A31;
+    border-radius: 10px;
+    padding: 24px 50px;
+    transition: all 0.3s ease;
+}
+
+#steam:hover {
+    background-image: url(/images/steam.png);
+    background-position: 25% 75%;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-color: #0B1A31;
+    color: white;
+    transform: translateY(-3px)
+}
+
+#steam:active {
+    transform: translate(1px);
+}
+
+#x {
+    color: white;
+    text-decoration: none;
+    font-family: "Fira Sans", sans-serif;
+
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 24px 50px;
+    transition: all 0.3s ease;
+}
+
+#x:hover {
+    background-image: url(/images/x.png);
+    background-position: 80px;
+    background-size: 160px;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+    transform: translateY(-3px)
+}
+
+#x:active {
+    transform: translate(1px);
+}
