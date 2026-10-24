@@ -1,0 +1,127 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #191308;
+    scroll-behavior: smooth;
+}
+
+#intro {
+    display: flex;
+    min-height: 100dvh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0 100px;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/souls-archive/images/all-ds.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    color: #8C594D;
+}
+
+#intro a,
+#ds1 a,
+#ds2 a,
+#ds3 a {
+    border: 2px solid #8C594D;
+    box-shadow: 0 0 10px #8C594D;
+    color: #8C594D;
+
+    font-family: "Fira Sans", sans-serif;
+    text-decoration: none;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+#intro a:hover,
+#ds1 a:hover,
+#ds2 a:hover,
+#ds3 a:hover {
+    background-color: #8C594D;
+    box-shadow: 0 0 20px #8C594D;
+    color: white;
+}
+
+#ds1 {
+    display: flex;
+    min-height: 100dvh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0 100px;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/souls-archive/images/ds1-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    color: #8C594D;
+}
+
+#ds2 {
+    display: flex;
+    min-height: 100dvh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0 100px;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/souls-archive/images/ds2-background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    color: #8C594D;
+}
+
+#ds3 {
+    display: flex;
+    min-height: 100dvh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0 100px;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/souls-archive/images/ds3-background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    color: #8C594D;
+}
+
+@media screen and (max-width: 768px) {
+
+    #intro a,
+    #ds1 a,
+    #ds2 a,
+    #ds3 a {
+        margin-top: 30px;
+        padding: 10px;
+    }
+}
